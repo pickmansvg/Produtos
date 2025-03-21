@@ -39,7 +39,6 @@ public class ProdutoMapDAO implements IProdutoDAO{
             Produto prodCad = this.produtos.get(produto.getIdProd());
             if (prodCad != null){
                 prodCad.setNome(produto.getNome());
-                prodCad.setIdProd(produto.getIdProd());
                 prodCad.setQtd(produto.getQtd());
                 prodCad.setPreco(produto.getPreco());
 

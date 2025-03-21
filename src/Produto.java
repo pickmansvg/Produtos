@@ -6,9 +6,9 @@ public class Produto {
     private String nome; 
     private String idProd;
     private Integer qtd;
-    private Integer preco;
+    private Double preco;
     
-    public Produto (String nome, String idProd, Integer qtd, Integer preco){
+    public Produto (String nome, String idProd, Integer qtd, Double preco){
         
         this.nome = nome;
         this.idProd = idProd;
@@ -41,11 +41,11 @@ public class Produto {
         return this.qtd;
     }
     
-    public void setPreco(Integer preco){
+    public void setPreco(Double preco){
         this.preco = preco;
     }
     
-    public Integer getPreco(){
+    public Double getPreco(){
         return this.preco;
     }
     
